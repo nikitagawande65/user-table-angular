@@ -1,0 +1,54 @@
+.main-div {
+  padding-top: 8em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+table {
+  width: 100%;
+}
+.user-table {
+  width: 80%;
+}
+mat-progress-bar {
+  top: 10%;
+}
+.user {
+  display: inline;
+}
+.info {
+  padding-left: 1em;
+  padding-right: 1em;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  /* background-color: white;
+  border: 1px solid grey;
+  box-shadow: slategrey; */
+}
+.user-count {
+  padding-top: 2em;
+}
+.progress-bar {
+  width: 100%;
+}
+a {
+  text-decoration: underline;
+  cursor: pointer;
+}
+a:hover {
+  text-decoration: none;
+}
+th {
+  background-color: #00a99d;
+  color: white;
+  font-size: 1.2em;
+}
+::ng-deep .mat-progress-bar-fill::after {
+  background-color: #00a99d;
+}
+mat-progress-bar {
+  border-radius: 5em;
+  height: 0.8em;
+}
